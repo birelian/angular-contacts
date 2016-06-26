@@ -1,0 +1,6 @@
+{
+  "name": "Simple Agenda",
+  "tagline": "Spring Spring-Boot Spring-JPA AngularJS",
+  "body": "# Simple Agenda\r\nPOC that shows how to integrate AngularJS and REST services using Spring.It also shows how to use Spring JPA for interacting with the database.\r\n\r\nSpring-Boot generates a single standalone .jar that \"magically\" (Spring rocks!) sets up the entire application (angular content, services, application server, etc)..\r\n\r\n### How to run\r\n\r\n```sh\r\n$ mvn clean package\r\n```\r\n```sh\r\n$ java -jar target/(filename).jar\r\n```\r\nBrowse to http://localhost:8080\r\n\r\n### Version\r\n1.0.0\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
