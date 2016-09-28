@@ -54,6 +54,10 @@
             $scope.submitted = false;
         }
 
+        // Cancel create / edit contact
+        $scope.cancelEditContact = function() {
+            $scope.showContactForm = false;
+        }
 
         // Save contact
         $scope.saveContact = function() {
